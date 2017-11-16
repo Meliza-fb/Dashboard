@@ -1,0 +1,127 @@
+body{
+ margin:0px;
+  background-color: #E1F5A9;
+}
+
+#dashboard{
+  background-color: #8BDFB0;
+  height: 70px;
+  margin-top: 0px;
+  text-align: center;
+}
+
+.fa-pie-chart{
+  margin-top: 15px;
+  font-size: 35px;
+  color: #03073B;
+}
+
+#user{
+  background-color:#0A122A;
+  position:absolute;
+  margin-bottom: 120px;
+  width: 170px;
+  height: 1600px;
+}
+
+p{
+  color: #8BDFB0;
+  font-family:sans-serif;
+  font-weight: bold;
+  margin-left: 50px;
+}
+
+ul{
+  font-size: 18px;
+  /*outline: 1px solid YELLOW;*/
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  line-height: 30px;
+}
+
+li{
+  /*outline: 1px solid red;*/
+  background: #f5f5f0;
+}
+
+a{
+  /*outline: 1px solid green;*/
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding-left: 10px;
+}
+
+a:hover{
+ background: #8BDFB0;
+}
+
+a:active {
+  background: #333;
+  color: white;
+}
+
+ul li:first-child{
+background: transparent;
+}
+ul li:first-child a {
+  color: white;
+}
+
+ul li:first-child a:hover{
+  color: black;
+}
+
+ul li:first-child a:active{
+  color: white;
+}
+
+#date{
+  /*background-color: gray;*/
+  position: absolute;
+  margin-top: 20px;
+  color:#03073B;
+  width: 200px;
+  margin-left: 250px;
+}
+
+h4{
+  color: black;
+  width: 550px;
+}
+
+.Desertar{
+  position: absolute;
+  left: 550px;
+  top: 65px;
+}
+
+.min_ciento{
+  position: absolute;
+  left: 550px;
+  top: 420px;
+}
+
+.HSE{
+  position: absolute;
+  left: 550px;
+  top: 790px;
+}
+
+.Tecnico{
+  position: absolute;
+  left: 270px;
+}
+
+
+.footer{
+  background:#0A122A;
+  position: absolute;
+  top: 1670px;
+  height: 100px;
+  color: #8BDFB0;
+  padding: 30px;
+  text-align: center;
+}
